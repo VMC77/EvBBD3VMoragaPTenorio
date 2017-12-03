@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.moraga.ev2vmoragaptenorio">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LogInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuPrincipalActivity" />
+        <activity android:name=".Productos.ProductosActivity" />
+        <activity android:name=".Clientes.ClientesActivity" />
+        <activity android:name=".Clientes.ClientesListaActivity" />
+        <activity android:name=".Clientes.ClientesAgregarActivity" />
+        <activity android:name=".Clientes.Mod_Eli_ClientesActivity" />
+        <activity android:name=".Pedidos.PedidosActivity" />
+        <activity android:name=".Pedidos.PedidosAgregarActivity" />
+        <activity android:name=".Pedidos.PedidosProductosActivity" />
+        <activity android:name=".Pedidos.PedidosListaActivity" />
+        <activity android:name=".Pedidos.PedidosEntregaActivity"></activity>
+    </application>
+
+</manifest>

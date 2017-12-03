@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.moraga.ev2vmoragaptenorio.Clientes.ClientesAgregarActivity">
+    <EditText
+        android:id="@+id/rut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="RUT"/>
+    <EditText
+        android:id="@+id/nombrelocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del local"/>
+    <EditText
+        android:id="@+id/nombrecontacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nombre contacto"/>
+    <EditText
+        android:id="@+id/direccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Direccion"/>
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Telefono"/>
+    <Button
+        android:id="@+id/ingresarCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:onClick="ingresarClienteClick"/>
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="volver"
+        android:text="VOLVER"/>
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.moraga.ev2vmoragaptenorio.Clientes.Mod_Eli_ClientesActivity">
+    <Spinner
+        android:id="@+id/modificarClientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Spinner>
+    <TextView
+        android:id="@+id/RUTCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RUT Cliente"
+        android:layout_weight="0.03" />
+    <EditText
+        android:id="@+id/editarRutCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/antiguoNombrelocalCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre Local"
+        android:layout_weight="0.03" />
+    <EditText
+        android:id="@+id/editarNombrelocalCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+    android:id="@+id/antiguoNombrecontactoCliente"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.03"
+    android:text="Nombre Contacto"/>
+    <EditText
+        android:id="@+id/editarNombrecontactoCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/antiguoDireccionCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="Direccion"/>
+    <EditText
+        android:id="@+id/editarDireccionCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/antiguoTelefonoCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="Telefono"/>
+    <EditText
+        android:id="@+id/editarTelefonoCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/btneditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="editarClienteClick"
+        android:text="EDITAR" />
+    <Button
+        android:id="@+id/btneliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="eliminarClienteClick"
+        android:text="ELIMINAR" />
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="volver"
+        android:text="VOLVER"/>
+</LinearLayout>

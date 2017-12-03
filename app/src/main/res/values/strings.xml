@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Evaluación BDD Victor Moraga Pedro Tenorio</string>
+    <string-array name="menuPrincipal">
+        <item>ADMINISTRACIÓN DE CLIENTES</item>
+        <item>PEDIDOS</item>
+        <item>LISTA DE PRODUCTOS</item>
+    </string-array>
+    <string-array name="opcionesClientes">
+        <item>CREAR CLIENTE</item>
+        <item>MODIFICAR/ ELIMINAR CLIENTE</item>
+        <item>LISTA DE CLIENTES</item>
+    </string-array>
+    <string-array name="opcionesPedidos">
+        <item>CREAR PEDIDO</item>
+        <item>CAMBIAR ESTADO DE ENTREGA</item>
+        <item>LISTA DE PEDIDOS</item>
+    </string-array>
+</resources>
